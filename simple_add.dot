@@ -1,0 +1,19 @@
+digraph {
+ n6_and_lgsimple_add [label=<n6_and>];
+ n6_and_lgsimple_add->n10_sum_lgsimple_add[label=<8b:(0,0):f>];
+ n7_and_lgsimple_add [label=<n7_and>];
+ n7_and_lgsimple_add->h[label=<8b:(0,3):unk>];
+ n8_sum_lgsimple_add [label=<n8_sum>];
+ n8_sum_lgsimple_add->n6_and_lgsimple_add[label=<8b:(0,0):unk>];
+ n9_const_lgsimple_add [label=<n9_const:0xff>];
+ n9_const_lgsimple_add->n7_and_lgsimple_add[label=<9b:(0,0)>];
+ n9_const_lgsimple_add->n6_and_lgsimple_add[label=<9b:(0,0)>];
+ n10_sum_lgsimple_add [label=<n10_sum>];
+ n10_sum_lgsimple_add->n7_and_lgsimple_add[label=<8b:(0,0):unk>];
+ a [label=<a>];
+ a->n10_sum_lgsimple_add[label=<8b:(1,1):a>];
+ a->n8_sum_lgsimple_add[label=<8b:(1,0):a>];
+ b [label=<b>];
+ b->n8_sum_lgsimple_add[label=<8b:(2,0):b>];
+ h->virtual_dst_module[label=<8b>];
+}
