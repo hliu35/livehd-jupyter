@@ -8,7 +8,8 @@ Before porting this repository to the main branch, it is advised that bazel-bin/
 
 Clone this in the main (livehd) folder, preferably the same location as folders e.g. inou, bazel-bin, pass, main.
 ```bash
-git clone 
+cd livehd
+git clone https://github.com/hliu35/livehd-jupyter
 ```
 
 Below is a list of Anaconda package dependencies for `LiveHD+Jupyter.ipynb`. Many of these packages are from `conda-forge` package channel. Specify the channel with flag `-c` when installing.
