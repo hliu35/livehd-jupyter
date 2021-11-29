@@ -1,4 +1,4 @@
-# Steps to create a GraphViz file (.dot)
+# Steps to create a GraphViz file (.dot) with `lgshell`
 
 ### **Using `lgshell` to create LGraph files in (default) lgdb/**
 ```bash
