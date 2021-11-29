@@ -22,7 +22,7 @@ Below is a list of Anaconda package dependencies for `LiveHD+Jupyter.ipynb`. Man
 ## **Running**
 `LiveHD+Jupyter.ipynb` is compatible with both C++ and Python kernels.
 1. Create a new virtual environment with Anaconda
-```bash
+```
 conda create -n <envname>
 ```
 2. Enter the virtual environment just created
