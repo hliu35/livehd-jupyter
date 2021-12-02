@@ -26,11 +26,11 @@ digraph {
  n23_tup_add_lghier_tuple_io [label=<n23_tup_add>];
  n23_tup_add_lghier_tuple_io->n25_tup_add_lghier_tuple_io[label=<0b:(0,0):<font color="#0000ff">foo1_0</font>>];
  n25_tup_add_lghier_tuple_io [label=<n25_tup_add>];
- n25_tup_add_lghier_tuple_io->n37_tup_add_lghier_tuple_io[label=<0b:(0,4):<font color="#0000ff">_percent_out_0</font>>];
+ n25_tup_add_lghier_tuple_io->n33_tup_add_lghier_tuple_io[label=<0b:(0,4):<font color="#0000ff">_percent_out_0</font>>];
  n26_const_lghier_tuple_io [label=<n26_const:9>];
  n26_const_lghier_tuple_io->n27_tup_add_lghier_tuple_io[label=<5b:(0,4)>];
  n27_tup_add_lghier_tuple_io [label=<n27_tup_add>];
- n27_tup_add_lghier_tuple_io->n33_tup_add_lghier_tuple_io[label=<0b:(0,4):<font color="#0000ff">_percent_out2_0</font>>];
+ n27_tup_add_lghier_tuple_io->n37_tup_add_lghier_tuple_io[label=<0b:(0,4):<font color="#0000ff">_percent_out2_0</font>>];
  n29_const_lghier_tuple_io [label=<n29_const:'sub'>];
  n29_const_lghier_tuple_io->n27_tup_add_lghier_tuple_io[label=<24b:(0,5)>];
  n31_const_lghier_tuple_io [label=<n31_const:0b000?>];
@@ -38,10 +38,10 @@ digraph {
  n32_or_lghier_tuple_io [label=<n32_or>];
  n33_tup_add_lghier_tuple_io [label=<n33_tup_add>];
  n33_tup_add_lghier_tuple_io->n37_tup_add_lghier_tuple_io[label=<0b:(0,0):<font color="#0000ff">_percent_</font>>];
- n35_const_lghier_tuple_io [label=<n35_const:'%.out2'>];
- n35_const_lghier_tuple_io->n33_tup_add_lghier_tuple_io[label=<48b:(0,5)>];
+ n35_const_lghier_tuple_io [label=<n35_const:'%.out'>];
+ n35_const_lghier_tuple_io->n33_tup_add_lghier_tuple_io[label=<40b:(0,5)>];
  n37_tup_add_lghier_tuple_io [label=<n37_tup_add>];
  n37_tup_add_lghier_tuple_io->_percent_[label=<0b:(0,0):<font color="#0000ff">_percent_</font>>];
- n39_const_lghier_tuple_io [label=<n39_const:'%.out'>];
- n39_const_lghier_tuple_io->n37_tup_add_lghier_tuple_io[label=<40b:(0,5)>];
+ n39_const_lghier_tuple_io [label=<n39_const:'%.out2'>];
+ n39_const_lghier_tuple_io->n37_tup_add_lghier_tuple_io[label=<48b:(0,5)>];
 }
