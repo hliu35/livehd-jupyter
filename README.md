@@ -14,8 +14,8 @@ git clone https://github.com/hliu35/livehd-jupyter
 
 Below is a list of Anaconda package dependencies for `LiveHD+Jupyter.ipynb`. Many of these packages are from `conda-forge` package channel. Specify the channel with flag `-c` when installing.
 
-* xeus-cling (C++ Jupyter kernels)
-* bash-kernel (Bash Jupyter kernel)
+* xeus-cling (optional, C++ Jupyter kernels)
+* bash-kernel (optional, Bash Jupyter kernel)
 * ~~ipywidget (Python Interactive Notebook)~~
 * graphviz-python (Python)
 
@@ -34,3 +34,9 @@ source activate <envname>
 conda install -c <channel> <package_name>
 ```
 4. Open Jupyter Notebook `LiveHD+Jupyter.ipynb` 
+
+Start a Jupyter Notebook server session by running
+```
+jupyter notebook
+```
+Or opening the file in IDE such as Visual Studio Code
